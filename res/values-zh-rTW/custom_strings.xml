@@ -21,11 +21,11 @@
     <string name="google_folder_title">Google</string>
 
     <!-- Settings title to show Google Now at -1 screen on launcher. [CHAR LIMIT=50] -->
-    <string name="title_show_google_app">划動進入 Google App</string>
+    <string name="title_show_google_app">划動進入 Google 應用</string>
     <!-- Settings message explaining when the -1 screen is available on an LTR device. [CHAR LIMIT=100] -->
-    <string name="msg_minus_one_on_left">在主螢幕上，向左滑動以開啟 Google App</string>
+    <string name="msg_minus_one_on_left">在主螢幕上，向左滑動以開啟 Google 應用</string>
     <!-- Settings message explaining when the -1 screen is available on an RTL device. [CHAR LIMIT=100] -->
-    <string name="msg_minus_one_on_right">在主螢幕上，向右滑動以開啟 Google App</string>
+    <string name="msg_minus_one_on_right">在主螢幕上，向右滑動以開啟 Google 應用</string>
 
     <!-- Suggestions -->
     <string name="suggestion_pref_screen_title">建議</string>
@@ -46,6 +46,11 @@
     <string name="drawer_show_labels">應用抽屜顯示圖示名稱</string>
 
     <!-- Recents -->
-    <string name="action_lens">Lens</string>
+    <string name="action_lens">智慧鏡頭</string>
+
+    <!-- Hotseat searchbar -->
+    <string name="label_search">搜尋</string>
+    <string name="label_lens">智慧鏡頭</string>
+    <string name="label_voice_search">語音搜尋</string>
 
 </resources>
