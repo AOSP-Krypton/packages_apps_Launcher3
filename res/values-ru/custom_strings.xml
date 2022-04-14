@@ -44,7 +44,7 @@
 
     <!-- Hide labels -->
     <string name="desktop_show_labels">Показывать названия приложений на главном экране</string>
-    <string name="drawer_show_labels">Показывать названия приложений в списке всех приложений</string>
+    <string name="drawer_show_labels">Показывать названия приложений в списке всех прил.</string>
 
     <!-- Recents -->
     <string name="action_lens">Объектив</string>
