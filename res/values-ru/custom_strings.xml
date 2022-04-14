@@ -34,7 +34,7 @@
 
      <!-- DT2S -->
     <string name="pref_sleep_gesture_title">Двойной тап для сна</string>
-    <string name="pref_sleep_gesture_summary">Дважды тапните в пустом месте для выключения экрана</string>
+    <string name="pref_sleep_gesture_summary">Дважды тапните в пустом месте на главном экране для выключения экрана</string>
     
     <!-- Edit workspace -->
     <string name="settings_lock_layout_title">Блокировка главного экрана</string>
