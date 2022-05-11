@@ -52,5 +52,9 @@
     <string name="label_search">搜尋</string>
     <string name="label_lens">智慧鏡頭</string>
     <string name="label_voice_search">語音搜尋</string>
+    <string name="dock_search_title">顯示底欄</string>
+    <string name="dock_search_summary">在桌面底部顯示搜尋欄</string>
+
+    <string name="flag_wont_be_applied">重啟啟動器以生效</string>
 
 </resources>

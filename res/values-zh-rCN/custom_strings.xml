@@ -52,5 +52,9 @@
     <string name="label_search">搜索</string>
     <string name="label_lens">智能镜头</string>
     <string name="label_voice_search">语音搜索</string>
+    <string name="dock_search_title">显示底栏</string>
+    <string name="dock_search_summary">在桌面底部显示搜索栏</string>
+
+    <string name="flag_wont_be_applied">重启启动器以生效</string>
 
 </resources>
