@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2016 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+
+<resources>
+    <string name="google_folder_title">Google</string>
+
+    <!-- Settings title to show Google Now at -1 screen on launcher. [CHAR LIMIT=50] -->
+    <string name="title_show_google_app">Balayez pour accéder à l\'application Google</string>
+    <!-- Settings message explaining when the -1 screen is available on an LTR device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_left">Depuis l\'écran d\'accueil, balayez vers la gauche pour ouvrir l\'application Google</string>
+    <!-- Settings message explaining when the -1 screen is available on an RTL device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_right">Depuis l\'écran d\'accueil, balayez vers la droite pour ouvrir l\'application Google</string>
+    <string name="pref_show_google_now_summary" translatable="false">@string/msg_minus_one_on_left</string>
+
+    <!-- Suggestions -->
+    <string name="suggestion_pref_screen_title">Suggestions</string>
+    <string name="suggestion_pref_screen_desc">Afficher des suggestions dans le tiroir &amp; l\'écran d'accueil</string>
+
+     <!-- DT2S -->
+    <string name="pref_sleep_gesture_title">Appuyez deux fois pour mettre en veille</string>
+    <string name="pref_sleep_gesture_summary">Appuyez deux fois dans un espace vide pour éteindre</string>
+    
+    <!-- Edit workspace -->
+    <string name="settings_lock_layout_title">Verrouiller les icônes</string>
+    <string name="settings_lock_layout_summary_on">Les icônes et les widgets ne peuvent pas être ajoutés, supprimés et déplacés sur l\'écran d\'accueil</string>
+    <string name="settings_lock_layout_summary_off">Des icônes et des widgets peuvent être ajoutés, supprimés et déplacés sur l\'écran d\'accueil</string>
+    <string name="settings_edit_widgets_error">Il n\'est pas possible d\'ajouter des widgets à l\'écran d\'accueil</string>
+
+    <!-- Hide labels -->
+    <string name="desktop_show_labels">Afficher le nom des applications sur l\'écran d\'accueil</string>
+    <string name="drawer_show_labels">Afficher le nom des applications dans le tiroir</string>
+
+    <!-- Recents -->
+    <string name="action_lens">Lens</string>
+
+    <!-- Hotseat searchbar -->
+    <string name="label_search">Recherche</string>
+    <string name="label_lens">Google Lens</string>
+    <string name="label_voice_search">Recherche vocale</string>
+    <string name="dock_search_title">Barre de recherche Google</string>
+    <string name="dock_search_summary">Afficher la barre de recherche Google au bas de l\'écran d\'accueil</string>
+
+    <string name="flag_wont_be_applied">Le paramètre ne sera pas appliqué tant que vous n\'aurez pas redémarré le lanceur</string>
+
+</resources>

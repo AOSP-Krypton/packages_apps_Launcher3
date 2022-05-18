@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- 
+<?xml version="1.0" encoding="utf-8"?><!--
 /*
 * Copyright (C) 2008 The Android Open Source Project
 *
@@ -15,156 +14,412 @@
 * See the License for the specific language governing permissions and
 * limitations under the License.
 */
- -->
+-->
 
-<resources xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name" msgid="649227358658669779">"Launcher3"</string>
-    <string name="work_folder_name" msgid="3753320833950115786">"Pro"</string>
-    <string name="activity_not_found" msgid="8071924732094499514">"L\'application n\'est pas installée."</string>
-    <string name="activity_not_available" msgid="7456344436509528827">"Application indisponible"</string>
-    <string name="safemode_shortcut_error" msgid="9160126848219158407">"L\'application téléchargée est désactivée en mode sécurisé."</string>
-    <string name="safemode_widget_error" msgid="4863470563535682004">"Les widgets sont désactivés en mode sécurisé."</string>
-    <string name="shortcut_not_available" msgid="2536503539825726397">"Raccourci non disponible"</string>
-    <string name="home_screen" msgid="5629429142036709174">"Accueil"</string>
-    <string name="recent_task_option_split_screen" msgid="6690461455618725183">"Écran partagé"</string>
-    <string name="split_screen_position_top" msgid="1504965011158689649">"Affichée en haut"</string>
-    <string name="split_screen_position_left" msgid="7537793098851830883">"Affichée à gauche"</string>
-    <string name="split_screen_position_right" msgid="1569377524925193369">"Affichée à droite"</string>
-    <string name="split_app_info_accessibility" msgid="5475288491241414932">"Infos sur l\'appli pour %1$s"</string>
-    <string name="long_press_widget_to_add" msgid="3587712543577675817">"Appuyez de manière prolongée sur un widget pour le déplacer."</string>
-    <string name="long_accessible_way_to_add" msgid="2733588281439571974">"Appuyez deux fois et maintenez la pression pour déplacer widget ou utiliser actions personnalisées."</string>
-    <string name="widget_dims_format" msgid="2370757736025621599">"%1$d x %2$d"</string>
-    <string name="widget_accessible_dims_format" msgid="3640149169885301790">"%1$d de largeur et %2$d de hauteur"</string>
-    <string name="widget_preview_context_description" msgid="9045841361655787574">"Widget <xliff:g id="WIDGET_NAME">%1$s</xliff:g>"</string>
-    <string name="add_item_request_drag_hint" msgid="5653291305078645405">"Appuyez de manière prolongée sur le widget pour le déplacer sur l\'écran d\'accueil"</string>
-    <string name="add_to_home_screen" msgid="8631549138215492708">"Ajouter à l\'écran d\'accueil"</string>
-    <string name="added_to_home_screen_accessibility_text" msgid="4451545765448884415">"Widget <xliff:g id="WIDGET_NAME">%1$s</xliff:g> ajouté à l\'écran d\'accueil"</string>
-    <string name="widgets_count" msgid="6467746476364652096">"{count,plural, =1{# widget}one{# widget}other{# widgets}}"</string>
-    <string name="shortcuts_count" msgid="8471715556199592381">"{count,plural, =1{# raccourci}one{# raccourci}other{# raccourcis}}"</string>
-    <string name="widgets_and_shortcuts_count" msgid="7209136747878365116">"<xliff:g id="WIDGETS_COUNT">%1$s</xliff:g>, <xliff:g id="SHORTCUTS_COUNT">%2$s</xliff:g>"</string>
-    <string name="widget_button_text" msgid="2880537293434387943">"Widgets"</string>
-    <string name="widgets_full_sheet_search_bar_hint" msgid="8484659090860596457">"Rechercher"</string>
-    <string name="widgets_full_sheet_cancel_button_description" msgid="5766167035728653605">"Effacer le texte du champ de recherche"</string>
-    <string name="no_widgets_available" msgid="4337693382501046170">"Les widgets et les raccourcis ne sont pas disponibles"</string>
-    <string name="no_search_results" msgid="3787956167293097509">"Aucun widget ni raccourci trouvé"</string>
-    <string name="widgets_full_sheet_personal_tab" msgid="2743540105607120182">"Personnels"</string>
-    <string name="widgets_full_sheet_work_tab" msgid="3767150027110633765">"Professionnels"</string>
-    <string name="widget_category_conversations" msgid="8894438636213590446">"Conversations"</string>
-    <string name="widget_education_header" msgid="4874760613775913787">"Infos utiles à portée de main"</string>
-    <string name="widget_education_content" msgid="745542879510751525">"Pour obtenir des infos sans ouvrir d\'applis, vous pouvez ajouter des widgets à votre écran d\'accueil"</string>
-    <string name="reconfigurable_widget_education_tip" msgid="6336962690888067057">"Appuyez pour modifier les paramètres du widget"</string>
-    <string name="widget_education_close_button" msgid="8676165703104836580">"OK"</string>
-    <string name="widget_reconfigure_button_content_description" msgid="8811472721881205250">"Modifier les paramètres du widget"</string>
-    <string name="all_apps_search_bar_hint" msgid="1390553134053255246">"Rechercher dans les applications"</string>
-    <string name="all_apps_loading_message" msgid="5813968043155271636">"Chargement des applications…"</string>
-    <string name="all_apps_no_search_results" msgid="3200346862396363786">"Aucune application ne correspond à la requête \"<xliff:g id="QUERY">%1$s</xliff:g>\""</string>
-    <string name="all_apps_search_market_message" msgid="1366263386197059176">"Rechercher plus d\'applications"</string>
-    <string name="label_application" msgid="8531721983832654978">"Application"</string>
-    <string name="all_apps_label" msgid="5015784846527570951">"Toutes les applis"</string>
-    <string name="notifications_header" msgid="1404149926117359025">"Notifications"</string>
-    <string name="long_press_shortcut_to_add" msgid="5405328730817637737">"Appuyez de manière prolongée pour déplacer un raccourci."</string>
-    <string name="long_accessible_way_to_add_shortcut" msgid="2199537273817090740">"Appuyez deux fois et maintenez la pression pour déplacer un raccourci ou utiliser les actions personnalisées."</string>
-    <string name="out_of_space" msgid="6692471482459245734">"Espace insuffisant sur cet écran d\'accueil"</string>
-    <string name="hotseat_out_of_space" msgid="7448809638125333693">"Plus d\'espace disponible dans la zone de favoris."</string>
-    <string name="all_apps_button_label" msgid="8130441508702294465">"Liste d\'applications"</string>
-    <string name="all_apps_search_results" msgid="5889367432531296759">"Résultats de recherche"</string>
-    <string name="all_apps_button_personal_label" msgid="1315764287305224468">"Liste des applications personnelles"</string>
-    <string name="all_apps_button_work_label" msgid="7270707118948892488">"Liste des applications professionnelles"</string>
-    <string name="remove_drop_target_label" msgid="7812859488053230776">"Supprimer"</string>
-    <string name="uninstall_drop_target_label" msgid="4722034217958379417">"Désinstaller"</string>
-    <string name="app_info_drop_target_label" msgid="692894985365717661">"Infos sur l\'appli"</string>
-    <string name="install_drop_target_label" msgid="2539096853673231757">"Installer"</string>
-    <string name="dismiss_prediction_label" msgid="3357562989568808658">"Ne pas suggérer d\'application"</string>
-    <string name="pin_prediction" msgid="4196423321649756498">"Épingler la prédiction"</string>
-    <string name="permlab_install_shortcut" msgid="5632423390354674437">"installer des raccourcis"</string>
-    <string name="permdesc_install_shortcut" msgid="923466509822011139">"Permettre à une application d\'ajouter des raccourcis sans l\'intervention de l\'utilisateur"</string>
-    <string name="permlab_read_settings" msgid="1941457408239617576">"lire les paramètres et les raccourcis de l\'écran d\'accueil"</string>
-    <string name="permdesc_read_settings" msgid="5833423719057558387">"Permettre à l\'application de lire les paramètres et les raccourcis de l\'écran d\'accueil"</string>
-    <string name="permlab_write_settings" msgid="3574213698004620587">"modifier les paramètres et les raccourcis de l\'écran d\'accueil"</string>
-    <string name="permdesc_write_settings" msgid="5440712911516509985">"Permettre à l\'application de modifier les paramètres et les raccourcis de l\'écran d\'accueil"</string>
-    <string name="msg_no_phone_permission" msgid="9208659281529857371">"L\'application <xliff:g id="APP_NAME">%1$s</xliff:g> n\'est pas autorisée à passer des appels téléphoniques."</string>
-    <string name="gadget_error_text" msgid="740356548025791839">"Impossible de charger le widget"</string>
-    <string name="gadget_setup_text" msgid="8348374825537681407">"Paramètres du widget"</string>
-    <string name="gadget_complete_setup_text" msgid="309040266978007925">"Appuyez pour terminer la configuration"</string>
-    <string name="uninstall_system_app_text" msgid="4172046090762920660">"Impossible de désinstaller cette application, car il s\'agit d\'une application système."</string>
-    <string name="folder_hint_text" msgid="5174843001373488816">"Modifier le nom"</string>
-    <string name="disabled_app_label" msgid="6673129024321402780">"<xliff:g id="APP_NAME">%1$s</xliff:g> est désactivé."</string>
-    <string name="dotted_app_label" msgid="1704091277755818896">"{count,plural,offset:1 =1{{app_name} a # notification}one{{app_name} a # notification}other{{app_name} a # notifications}}"</string>
-    <string name="default_scroll_format" msgid="7475544710230993317">"Page %1$d sur %2$d"</string>
-    <string name="workspace_scroll_format" msgid="8458889198184077399">"Écran d\'accueil %1$d sur %2$d"</string>
-    <string name="workspace_new_page" msgid="257366611030256142">"Nouvelle page d\'écran d\'accueil"</string>
-    <string name="folder_opened" msgid="94695026776264709">"Dossier ouvert, <xliff:g id="WIDTH">%1$d</xliff:g> par <xliff:g id="HEIGHT">%2$d</xliff:g>"</string>
-    <string name="folder_tap_to_close" msgid="4625795376335528256">"Appuyez pour fermer le dossier."</string>
-    <string name="folder_tap_to_rename" msgid="4017685068016979677">"Appuyez pour enregistrer le nouveau nom du dossier."</string>
-    <string name="folder_closed" msgid="4100806530910930934">"Dossier fermé"</string>
-    <string name="folder_renamed" msgid="1794088362165669656">"Nouveau nom du dossier : <xliff:g id="NAME">%1$s</xliff:g>"</string>
-    <string name="folder_name_format_exact" msgid="8626242716117004803">"Dossier : <xliff:g id="NAME">%1$s</xliff:g>, <xliff:g id="SIZE">%2$d</xliff:g> éléments"</string>
-    <string name="folder_name_format_overflow" msgid="4270108890534995199">"Dossier : <xliff:g id="NAME">%1$s</xliff:g>, <xliff:g id="SIZE">%2$d</xliff:g> éléments ou plus"</string>
-    <string name="wallpaper_button_text" msgid="8404103075899945851">"Fonds d\'écran"</string>
-    <string name="styles_wallpaper_button_text" msgid="8216961355289236794">"Fond d\'écran et style"</string>
-    <string name="settings_button_text" msgid="8873672322605444408">"Paramètres de l\'accueil"</string>
-    <string name="msg_disabled_by_admin" msgid="6898038085516271325">"Désactivé par votre administrateur"</string>
-    <string name="allow_rotation_title" msgid="7728578836261442095">"Autoriser la rotation de l\'écran d\'accueil"</string>
-    <string name="allow_rotation_desc" msgid="8662546029078692509">"Lorsque vous faites pivoter le téléphone"</string>
-    <string name="notification_dots_title" msgid="9062440428204120317">"Pastilles de notification"</string>
-    <string name="notification_dots_desc_on" msgid="1679848116452218908">"Activées"</string>
-    <string name="notification_dots_desc_off" msgid="1760796511504341095">"Désactivées"</string>
-    <string name="title_missing_notification_access" msgid="7503287056163941064">"Accès aux notifications requis"</string>
-    <string name="msg_missing_notification_access" msgid="281113995110910548">"Pour afficher les pastilles de notification, activez les notifications de l\'application <xliff:g id="NAME">%1$s</xliff:g>"</string>
-    <string name="title_change_settings" msgid="1376365968844349552">"Modifier les paramètres"</string>
-    <string name="notification_dots_service_title" msgid="4284221181793592871">"Afficher les pastilles de notification"</string>
-    <string name="auto_add_shortcuts_label" msgid="3698776050751790653">"Ajouter les icônes des applis à l\'écran d\'accueil"</string>
-    <string name="auto_add_shortcuts_description" msgid="7117251166066978730">"Pour les nouvelles applications"</string>
-    <string name="package_state_unknown" msgid="7592128424511031410">"Inconnu"</string>
-    <string name="abandoned_clean_this" msgid="7610119707847920412">"Supprimer"</string>
-    <string name="abandoned_search" msgid="891119232568284442">"Rechercher"</string>
-    <string name="abandoned_promises_title" msgid="7096178467971716750">"Cette application n\'est pas installée"</string>
-    <string name="abandoned_promise_explanation" msgid="3990027586878167529">"L\'application correspondant à cette icône n\'est pas installée. Vous pouvez supprimer cette dernière, ou essayer de rechercher l\'application et de l\'installer manuellement."</string>
-    <string name="app_installing_title" msgid="5864044122733792085">"Installation de <xliff:g id="NAME">%1$s</xliff:g>… (<xliff:g id="PROGRESS">%2$s</xliff:g> terminés)"</string>
-    <string name="app_downloading_title" msgid="8336702962104482644">"<xliff:g id="NAME">%1$s</xliff:g> en cours de téléchargement, <xliff:g id="PROGRESS">%2$s</xliff:g> effectué(s)"</string>
-    <string name="app_waiting_download_title" msgid="7053938513995617849">"<xliff:g id="NAME">%1$s</xliff:g> en attente d\'installation"</string>
-    <string name="widgets_list" msgid="796804551140113767">"Liste des widgets"</string>
-    <string name="widgets_list_closed" msgid="6141506579418771922">"La liste des widgets est fermée"</string>
-    <string name="action_add_to_workspace" msgid="8902165848117513641">"Ajouter à l\'écran d\'accueil"</string>
-    <string name="action_move_here" msgid="2170188780612570250">"Déplacer l\'élément ici"</string>
-    <string name="item_added_to_workspace" msgid="4211073925752213539">"L\'élément a bien été ajouté à l\'écran d\'accueil."</string>
-    <string name="item_removed" msgid="851119963877842327">"L\'élément a bien été supprimé."</string>
-    <string name="undo" msgid="4151576204245173321">"Annuler"</string>
-    <string name="action_move" msgid="4339390619886385032">"Déplacer l\'élément"</string>
-    <string name="move_to_empty_cell" msgid="2833711483015685619">"Déplacer vers la ligne <xliff:g id="NUMBER_0">%1$s</xliff:g>, colonne <xliff:g id="NUMBER_1">%2$s</xliff:g>"</string>
-    <string name="move_to_position" msgid="6750008980455459790">"Déplacer vers la position <xliff:g id="NUMBER">%1$s</xliff:g>"</string>
-    <string name="move_to_hotseat_position" msgid="6295412897075147808">"Déplacer vers la position <xliff:g id="NUMBER">%1$s</xliff:g> dans les favoris"</string>
-    <string name="item_moved" msgid="4606538322571412879">"Élément déplacé"</string>
-    <string name="add_to_folder" msgid="9040534766770853243">"Ajouter au dossier \"<xliff:g id="NAME">%1$s</xliff:g>\""</string>
-    <string name="add_to_folder_with_app" msgid="4534929978967147231">"Ajouter au dossier contenant \"<xliff:g id="NAME">%1$s</xliff:g>\""</string>
-    <string name="added_to_folder" msgid="4793259502305558003">"Élément ajouté au dossier"</string>
-    <string name="create_folder_with" msgid="4050141361160214248">"Créer un dossier avec \"<xliff:g id="NAME">%1$s</xliff:g>\""</string>
-    <string name="folder_created" msgid="6409794597405184510">"Dossier créé"</string>
-    <string name="action_move_to_workspace" msgid="1603837886334246317">"Déplacer vers l\'écran d\'accueil"</string>
-    <string name="action_resize" msgid="1802976324781771067">"Redimensionner"</string>
-    <string name="action_increase_width" msgid="8773715375078513326">"Augmenter la largeur"</string>
-    <string name="action_increase_height" msgid="459390020612501122">"Augmenter la hauteur"</string>
-    <string name="action_decrease_width" msgid="1374549771083094654">"Diminuer la largeur"</string>
-    <string name="action_decrease_height" msgid="282377193880900022">"Diminuer la hauteur"</string>
-    <string name="widget_resized" msgid="9130327887929620">"Le widget a bien été redimensionné (largeur : <xliff:g id="NUMBER_0">%1$s</xliff:g>, hauteur : <xliff:g id="NUMBER_1">%2$s</xliff:g>)."</string>
-    <string name="action_deep_shortcut" msgid="2864038805849372848">"Raccourcis"</string>
-    <string name="shortcuts_menu_with_notifications_description" msgid="2676582286544232849">"Raccourcis et notifications"</string>
-    <string name="action_dismiss_notification" msgid="5909461085055959187">"Ignorer"</string>
-    <string name="accessibility_close" msgid="2277148124685870734">"Fermer"</string>
-    <string name="notification_dismissed" msgid="6002233469409822874">"Notification ignorée"</string>
-    <string name="all_apps_personal_tab" msgid="4190252696685155002">"Personnelles"</string>
-    <string name="all_apps_work_tab" msgid="4884822796154055118">"Professionnelles"</string>
-    <string name="work_profile_toggle_label" msgid="3081029915775481146">"Profil professionnel"</string>
-    <string name="work_profile_edu_work_apps" msgid="7895468576497746520">"Les applis professionnelles sont identifiées par un badge et votre administrateur informatique peut les voir"</string>
-    <string name="work_profile_edu_accept" msgid="6069788082535149071">"OK"</string>
-    <string name="work_apps_paused_title" msgid="3040901117349444598">"Applications professionnelles en veille"</string>
-    <string name="work_apps_paused_body" msgid="261634750995824906">"Vos applis professionnelles ne peuvent pas vous envoyer de notifications, utiliser votre batterie ni accéder à votre position"</string>
-    <string name="work_apps_paused_content_description" msgid="5149623040804051095">"Vos applis professionnelles sont désactivées. Elles ne peuvent pas vous envoyer de notifications, utiliser votre batterie ni accéder à votre position."</string>
-    <string name="work_apps_paused_edu_banner" msgid="8872412121608402058">"Les applis professionnelles sont identifiées par un badge et votre administrateur informatique peut les voir"</string>
-    <string name="work_apps_paused_edu_accept" msgid="6377476824357318532">"OK"</string>
-    <string name="work_apps_pause_btn_text" msgid="1921059713673767460">"Désactiver les applis professionnelles"</string>
-    <string name="work_apps_enable_btn_text" msgid="1156432622148413741">"Activer les applications professionnelles"</string>
-    <string name="developer_options_filter_hint" msgid="5896817443635989056">"Filtre"</string>
-    <string name="remote_action_failed" msgid="1383965239183576790">"Échec : <xliff:g id="WHAT">%1$s</xliff:g>"</string>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- General -->
+    <skip />
+
+    <!-- Application name -->
+    <string name="app_name">Launcher3</string>
+    <!-- Work folder name -->
+    <string name="work_folder_name">Travail</string>
+    <!-- Displayed when user selects a shortcut for an app that was uninstalled [CHAR_LIMIT=none]-->
+    <string name="activity_not_found">L\'application n\'est pas installée.</string>
+    <!-- Displayed when user selects a shortcut for an app that is current not available [CHAR_LIMIT=none]-->
+    <string name="activity_not_available">L\'application n\'est pas disponible</string>
+    <!-- SafeMode shortcut error string -->
+    <string name="safemode_shortcut_error">Application téléchargée est désactivée en mode sans échec</string>
+    <!-- SafeMode widget error string -->
+    <string name="safemode_widget_error">Widgets désactivés en mode sans échec</string>
+    <!-- Message shown when a shortcut is not available. It could have been temporarily disabled and may start working again after some time. -->
+    <string name="shortcut_not_available">Le raccourci n\'est pas disponible</string>
+    <!-- User visible name for the launcher/home screen. [CHAR_LIMIT=30] -->
+    <string name="home_screen">Accueil</string>
+
+    <!-- Options for recent tasks -->
+    <!-- Title for an option to enter split screen mode for a given app -->
+    <string name="recent_task_option_split_screen">Écran divisé</string>
+    <string name="split_screen_position_top">Fractionner en haut</string>
+    <string name="split_screen_position_left">Fractionner à gauche</string>
+    <string name="split_screen_position_right">Fractionner à droite</string>
+    <string name="split_app_info_accessibility">Informations sur l\'application pour %1$s</string>
+
+    <!-- Widgets -->
+    <!-- Message to tell the user to press and hold on a widget to add it [CHAR_LIMIT=50] -->
+    <string name="long_press_widget_to_add">Appuyez longuement pour déplacer un widget.</string>
+    <!-- Accessibility spoken hint message in widget picker, which allows user to add a widget. Custom action is the label for additional accessibility actions available in this mode [CHAR_LIMIT=100] -->
+    <string name="long_accessible_way_to_add">Appuyez deux fois pour déplacer un widget ou utiliser des actions personnalisées.</string>
+    <!-- The format string for the dimensions of a widget in the drawer -->
+    <!-- There is a special version of this format string for Farsi -->
+    <string name="widget_dims_format">%1$d \u00d7 %2$d</string>
+    <!-- Accessibility spoken message format for the dimensions of a widget in the drawer -->
+    <string name="widget_accessible_dims_format">%1$d de large et %2$d de haut</string>
+    <!-- Spoken text for a screen reader. The placeholder text is the widget name.
+         [CHAR_LIMIT=none]-->
+    <string name="widget_preview_context_description"><xliff:g id="widget_name" example="Calendar month view">%1$s</xliff:g> widget</string>
+    <!-- Message to tell the user to press and hold a widget/icon to add it to the home screen.
+         [CHAR LIMIT=NONE]  -->
+    <string name="add_item_request_drag_hint">Appuyez longuement sur le widget pour le déplacer sur l\'écran d\'accueil</string>
+    <!-- Button label to automatically add a widget to home screen [CHAR_LIMIT=50] -->
+    <string name="add_to_home_screen">Ajouter à l\'écran d\'accueil</string>
+    <!-- Accessibility spoken message announced when a widget gets added to the home screen using a
+         button in a dialog. [CHAR_LIMIT=none] -->
+    <string name="added_to_home_screen_accessibility_text"><xliff:g id="widget_name" example="Calendar month view">%1$s</xliff:g> widget ajouté à l\'écran d\'accueil</string>
+    <!-- Label for showing the number of widgets an app has in the full widgets picker.
+         [CHAR_LIMIT=25][ICU SYNTAX] -->
+    <string name="widgets_count">
+        {count, plural, =1{# widget} other{# widgets}}
+    </string>
+    <!-- Label for showing the number of shortcut an app has in the full widgets picker.
+         [CHAR_LIMIT=25][ICU SYNTAX] -->
+    <string name="shortcuts_count">
+        {count, plural, =1{# shortcut} other{# shortcuts}}
+    </string>
+    <!-- Label for showing both the number of widgets and shortcuts an app has in the full widgets
+         picker. [CHAR_LIMIT=50] -->
+    <string name="widgets_and_shortcuts_count"><xliff:g id="widgets_count" example="5 widgets">%1$s</xliff:g>, <xliff:g id="shortcuts_count" example="1 shortcut">%2$s</xliff:g></string>
+
+    <!-- Text for both the tile of a popup view, which shows all available widgets installed on
+         the device, and the text of a button, which opens this popup view. [CHAR LIMIT=30]-->
+    <string name="widget_button_text">Widgets</string>
+    <!-- Search bar text shown in the popup view showing all available widgets installed on the
+         device. [CHAR_LIMIT=50] -->
+    <string name="widgets_full_sheet_search_bar_hint">Recherche</string>
+    <!-- Spoken text for screen readers. This text lets a user know that the button is used to clear
+         the text that the user entered in the search box. [CHAR_LIMIT=none] -->
+    <string name="widgets_full_sheet_cancel_button_description">Effacer le texte du champ de recherche</string>
+    <!-- Text shown when there are no widgets or shortcuts that can be added to the device.
+         [CHAR_LIMIT=none] -->
+    <string name="no_widgets_available">Les widgets et les raccourcis ne sont pas disponibles</string>
+    <!-- Text shown when there are no matching widget or shortcut search results for user\'s search
+         query. [CHAR_LIMIT=none] -->
+    <string name="no_search_results">Aucun widget ou raccourci trouvé</string>
+    <!-- Tab label. A user can tap this tab to access their personal widgets. [CHAR_LIMIT=25] -->
+    <string name="widgets_full_sheet_personal_tab">Personnel</string>
+    <!-- Tab label. A user can tap this tab to access their work widgets. [CHAR_LIMIT=25] -->
+    <string name="widgets_full_sheet_work_tab">Travail</string>
+
+    <!-- A widget category label for grouping widgets related to conversations. [CHAR_LIMIT=30] -->
+    <string name="widget_category_conversations">Conversations</string>
+
+    <!-- Title of a dialog. This dialog lets a user know how they can use widgets on their phone.
+         [CHAR_LIMIT=NONE] -->
+    <string name="widget_education_header">Des informations utiles à portée de main</string>
+    <!-- Dialog text. This dialog lets a user know how they can use widgets on their phone.
+         [CHAR_LIMIT=NONE] -->
+    <string name="widget_education_content">Pour obtenir des informations sans ouvrir d\'applications, vous pouvez ajouter des widgets à votre écran d\'accueil</string>
+
+    <!-- Text on an educational tip on widget informing users that they can change widget settings.
+         [CHAR_LIMIT=NONE] -->
+    <string name="reconfigurable_widget_education_tip">Appuyez pour modifier les paramètres du widget</string>
+
+    <!-- Text on the button that closes the education dialog about widgets. [CHAR_LIMIT=50] -->
+    <string name="widget_education_close_button">J\'ai compris</string>
+
+    <!-- Spoken text for screen readers. This text is for an icon that lets the user change a
+         widget\'s settings. [CHAR_LIMIT=50] -->
+    <string name="widget_reconfigure_button_content_description">Modifier les paramètres des widgets</string>
+
+    <!-- All Apps -->
+    <!-- Search bar text in the apps view. [CHAR_LIMIT=50] -->
+    <string name="all_apps_search_bar_hint">Rechercher des applications</string>
+    <!-- Loading apps text. [CHAR_LIMIT=50] -->
+    <string name="all_apps_loading_message">Chargement des applications&#8230;</string>
+    <!-- No-search-results text. [CHAR_LIMIT=50] -->
+    <string name="all_apps_no_search_results">Aucune application correspondante trouvée \"<xliff:g id="query" example="Android">%1$s</xliff:g>\"</string>
+    <!-- Label for the button which allows the user to get app search results. [CHAR_LIMIT=50] -->
+    <string name="all_apps_search_market_message">Rechercher plus d\'applications</string>
+    <!-- Label for an icon representing any generic app. [CHAR_LIMIT=50] -->
+    <string name="label_application">Application</string>
+    <!-- Label for the header text of the All Apps section in All Apps view, used to separate Predicted Apps and Actions section from All Apps section. [CHAR_LIMIT=50] -->
+    <string name="all_apps_label">Toutes les applications</string>
+
+    <!-- Popup items -->
+    <!-- Text to display as the header above notifications. [CHAR_LIMIT=30] -->
+    <string name="notifications_header">Notifications</string>
+
+    <!-- Drag and drop -->
+    <!-- Message to tell the user to press and hold on a shortcut to add it [CHAR_LIMIT=50] -->
+    <string name="long_press_shortcut_to_add">Appuyez longuement pour déplacer un raccourci.</string>
+    <!-- Accessibility spoken hint message in deep shortcut menu, which allows user to add a shortcut. Custom action is the label for additional accessibility actions available in this mode [CHAR_LIMIT=200] -->
+    <string name="long_accessible_way_to_add_shortcut">Appuyez deux fois pour déplacer un raccourci ou utiliser des actions personnalisées.</string>
+
+    <skip />
+    <!-- Error message when a user can\'t add more apps, widgets, or shortcuts to a Home screen. -->
+    <string name="out_of_space">Pas de place sur cet écran d\'accueil</string>
+    <!-- Error message when user has filled the hotseat -->
+    <string name="hotseat_out_of_space">Plus de place dans la barre des favoris</string>
+
+    <!-- All applications label -->
+    <string name="all_apps_button_label">Liste des applications</string>
+    <string name="all_apps_search_results">Résultats de recherche</string>
+    <string name="all_apps_button_personal_label">Liste des applications personnelles</string>
+    <string name="all_apps_button_work_label">Liste des applications professionnelles</string>
+
+    <!-- Label for remove drop target (from the homescreen only).
+         May appear next to uninstall_drop_target_label [CHAR_LIMIT=20] -->
+    <string name="remove_drop_target_label">Supprimer</string>
+    <!-- Label for uninstall drop target (from the device).
+         May appear next to remove_drop_target_label [CHAR_LIMIT=20]-->
+    <string name="uninstall_drop_target_label">Désinstaller</string>
+    <!-- Label for app info drop target. [CHAR_LIMIT=20] -->
+    <string name="app_info_drop_target_label">Informations sur l\'application</string>
+    <!-- Label for install drop target. [CHAR_LIMIT=20] -->
+    <string name="install_drop_target_label">Installer</string>
+    <!-- Label for install dismiss prediction. -->
+    <string name="dismiss_prediction_label">Ne pas suggérer d\'application</string>
+    <!-- Label for pinning predicted app. -->
+    <string name="pin_prediction">Prédiction d\'application à épingler</string>
+
+
+    <!-- Permissions: -->
+    <skip />
+    <!-- Permission short label -->
+    <string name="permlab_install_shortcut">Permet d\'installer des raccourcis</string>
+    <!-- Permission description -->
+    <string name="permdesc_install_shortcut">Permet à une application d\'ajouter des raccourcis sans intervention de l\'utilisateur</string>
+    <!-- Permission short label -->
+    <string name="permlab_read_settings">Permet de lire les paramètres de page d\'accueil et les raccourcis</string>
+    <!-- Permission description -->
+    <string name="permdesc_read_settings">Permet à l\'application de lire les paramètres et les raccourcis de la page d\'accueil</string>
+    <!-- Permission short label -->
+    <string name="permlab_write_settings">Permet d\'écrire les paramètres de page d\'accueil et les raccourcis</string>
+    <!-- Permission description -->
+    <string name="permdesc_write_settings">Permet à l\'application de modifier les paramètres et les raccourcis de la page d\'accueil</string>
+
+    <!-- Toast shown on clicking a direct call shortcut. [CHAR_LIMIT=80] -->
+    <string name="msg_no_phone_permission"><xliff:g id="app_name" example="Launcher3">%1$s</xliff:g> n\'est pas autorisé à passer des appels téléphoniques</string>
+
+    <!-- Widgets: -->
+    <skip />
+
+    <!-- Error text that lets a user know that the widget can\'t load. -->
+    <string name="gadget_error_text">Impossible de charger les widgets</string>
+
+    <!-- Button text. This button lets a user change a widget\'s settings. -->
+    <string name="gadget_setup_text">Paramètres des widgets</string>
+
+    <!-- Instructional text to encourage a user to finish setting up the widget. -->
+    <string name="gadget_complete_setup_text">Appuyez pour terminer la configuration</string>
+
+    <!-- Text to inform the user that they can\'t uninstall a system application -->
+    <string name="uninstall_system_app_text">Il s\'agit d\'une application système elle ne peut pas être désinstallée.</string>
+
+    <!-- Default folder title -->
+    <string name="folder_hint_text">Modifier le nom</string>
+
+    <!-- Accessibility -->
+    <!-- The format string for when an app is temporarily disabled. -->
+    <string name="disabled_app_label">Désactiver <xliff:g id="app_name" example="Messenger">%1$s</xliff:g></string>
+    <!-- The format string for when an app has a notification dot (meaning it has associated notifications). [ICU_FORMAT]-->
+    <string name="dotted_app_label">
+        {count, plural, offset:1
+            =1      {{app_name} has # notification}
+            other   {{app_name} has # notifications}
+        }
+    </string>
+    <skip />
+
+    <!-- The format string for default page scroll text [CHAR_LIMIT=none] -->
+    <string name="default_scroll_format">Page %1$d de %2$d</string>
+    <!-- The format string for Workspace page scroll text [CHAR_LIMIT=none] -->
+    <string name="workspace_scroll_format">Écran d\'accueil %1$d de %2$d</string>
+    <!-- Description for a new page on homescreen[CHAR_LIMIT=none] -->
+    <string name="workspace_new_page">Nouvelle page d\'écran d\'accueil</string>
+
+    <!-- Folder accessibility -->
+    <!-- The format string for when a folder is opened, speaks the dimensions -->
+    <string name="folder_opened">Dossier ouvert, <xliff:g id="width" example="5">%1$d</xliff:g> par <xliff:g id="height" example="3">%2$d</xliff:g></string>
+    <!-- Instruction that clicking outside will close folder -->
+    <string name="folder_tap_to_close">Appuyez pour fermer le dossier</string>
+    <!-- Instruction that clicking outside will commit folder rename -->
+    <string name="folder_tap_to_rename">Appuyez pour enregistrer le renommage</string>
+    <!-- Indication that folder closed -->
+    <string name="folder_closed">Dossier fermé</string>
+    <!-- Folder renamed format -->
+    <string name="folder_renamed">Dossier renommé en <xliff:g id="name" example="Games">%1$s</xliff:g></string>
+    <!-- Folder name format when folder has less than 4 items -->
+    <string name="folder_name_format_exact">Dossier : <xliff:g id="name" example="Games">%1$s</xliff:g>, <xliff:g id="size" example="2">%2$d</xliff:g> éléments</string>
+    <!-- Folder name format when folder has 4 or more items shown in preview-->
+    <string name="folder_name_format_overflow">Dossier : <xliff:g id="name" example="Games">%1$s</xliff:g>, <xliff:g id="size" example="2">%2$d</xliff:g> ou plusieurs éléments</string>
+
+    <!-- Strings for the customization mode -->
+    <!-- Text for wallpaper change button [CHAR LIMIT=30]-->
+    <string name="wallpaper_button_text">Fonds d\'écran</string>
+    <!-- Text for wallpaper change button [CHAR LIMIT=30]-->
+    <string name="styles_wallpaper_button_text">Fonds d\'écran &amp; style</string>
+    <!-- Text for settings button [CHAR LIMIT=20]-->
+    <string name="settings_button_text">Paramètres d\'accueil</string>
+    <!-- Message shown when a feature is disabled by the administrator -->
+    <string name="msg_disabled_by_admin">Désactivé par votre administrateur</string>
+
+    <!-- Strings for settings -->
+    <!-- Title for Allow Rotation setting. [CHAR LIMIT=50] -->
+    <string name="allow_rotation_title">Autoriser la rotation de l\'écran d\'accueil</string>
+    <!-- Text explaining when the home screen will get rotated. [CHAR LIMIT=100] -->
+    <string name="allow_rotation_desc">Lorsque le téléphone est tourné</string>
+    <!-- Title for Notification dots setting. Tapping this will link to the system Notifications settings screen where the user can turn off notification dots globally. [CHAR LIMIT=50] -->
+    <string name="notification_dots_title">Points de notification</string>
+    <!-- Text to indicate that the system notification dots setting is on [CHAR LIMIT=100] -->
+    <string name="notification_dots_desc_on">Activé</string>
+    <!-- Text to indicate that the system notification dots setting is off [CHAR LIMIT=100] -->
+    <string name="notification_dots_desc_off">Désactivé</string>
+    <!-- Title for the dialog shown when the app does not has notification access, explaining the requirement for notification access [CHAR LIMIT=50] -->
+    <string name="title_missing_notification_access">Accès aux notifications requis</string>
+    <!-- Message explaining to the user that the notification access is required by the app for showing \'Notification dots\' [CHAR LIMIT=NONE] -->
+    <string name="msg_missing_notification_access">Pour afficher les points de notification, activez les notifications d\'application pour <xliff:g id="name" example="My App">%1$s</xliff:g></string>
+    <!-- Button text in the confirmation dialog which would take the user to the system settings [CHAR LIMIT=50] -->
+    <string name="title_change_settings">Modifier les paramètres</string>
+    <!-- Summary for Notification dots setting. Tapping this will link enable/disable notification dots feature on the home screen. [CHAR LIMIT=50] -->
+    <string name="notification_dots_service_title">Afficher les points de notification</string>
+
+    <!-- Label for the setting that allows the automatic placement of launcher shortcuts for applications and games installed on the device [CHAR LIMIT=60] -->
+    <string name="auto_add_shortcuts_label">Ajouter des icônes d\'application à l\'écran d\'accueil</string>
+    <!-- Text description of the setting that allows the automatic placement of launcher shortcuts for applications and games installed on the device [CHAR LIMIT=NONE] -->
+    <string name="auto_add_shortcuts_description">Pour les nouvelles applications</string>
+
+    <!-- Label on an icon that references an uninstalled package, for which we have no information about when it might be installed. [CHAR_LIMIT=15] -->
+    <string name="package_state_unknown">Inconnue</string>
+
+    <!-- Button for abandoned promises dialog, to removes this abandoned promise icon. -->
+    <string name="abandoned_clean_this">Supprimer</string>
+    <!-- Button for abandoned promise dialog, to search in the market for the missing package. -->
+    <string name="abandoned_search">Recherche</string>
+    <!-- Title for abandoned promise dialog. -->
+    <string name="abandoned_promises_title">Cette application n\'est pas installée</string>
+    <!-- Explanation for abandoned promise dialog. "The first \'it\' refers to the shortcut icon.
+    The second "it" refers to the app. -->
+    <string name="abandoned_promise_explanation">L\'application pour cette icône n\'est pas installée.
+        Vous pouvez la supprimer ou rechercher l\'application et l\'installer manuellement.
+    </string>
+    <!-- Title for an app which is being installed. -->
+    <string name="app_installing_title"><xliff:g id="name" example="Messenger">%1$s</xliff:g> installation, <xliff:g id="progress" example="30%">%2$s</xliff:g> complétée</string>
+    <!-- Title for an app which is being downloaded. -->
+    <string name="app_downloading_title"><xliff:g id="name" example="Messenger">%1$s</xliff:g> téléchargement, <xliff:g id="progress" example="30%">%2$s</xliff:g> complétée</string>
+    <!-- Title for an app whose download has been started. -->
+    <string name="app_waiting_download_title"><xliff:g id="name" example="Messenger">%1$s</xliff:g> en attente d\'installation</string>
+
+    <!-- Strings for widgets & more in the popup container/bottom sheet -->
+
+    <!-- Accessibility title for the popup containing a list of widgets. [CHAR_LIMIT=50] -->
+    <string name="widgets_list">Liste des widgets</string>
+    <!-- Text announced by accessibility when the popup containing the list of widgets is closed. [CHAR_LIMIT=100] -->
+    <string name="widgets_list_closed">Liste des widgets fermée</string>
+
+    <!-- Strings for accessibility actions -->
+    <!-- Accessibility action to add an app to workspace. [CHAR_LIMIT=30] -->
+    <string name="action_add_to_workspace">Ajouter à l\'écran d\'accueil</string>
+
+    <!-- Accessibility action to move item to the current location. [CHAR_LIMIT=30] -->
+    <string name="action_move_here">Déplacer l\'élément ici</string>
+
+    <!-- Accessibility confirmation for item added to workspace. -->
+    <string name="item_added_to_workspace">Élément ajouté à l\'écran d\'accueil</string>
+
+    <!-- Accessibility confirmation for item removed. [CHAR_LIMIT=50]-->
+    <string name="item_removed">Article supprimé</string>
+
+    <!-- Action shown in snackbar to undo item removal. [CHAR_LIMIT=20] -->
+    <string name="undo">Annuler</string>
+
+    <!-- Accessibility action to move an item on the workspace. [CHAR_LIMIT=30] -->
+    <string name="action_move">Déplacer l\'élément</string>
+
+    <!-- Accessibility description to move item to empty cell. -->
+    <string name="move_to_empty_cell">Déplacer vers la ligne <xliff:g id="number" example="1">%1$s</xliff:g> colonne <xliff:g id="number" example="1">%2$s</xliff:g></string>
+
+    <!-- Accessibility description to move item inside a folder. -->
+    <string name="move_to_position">Déplacer vers le poste <xliff:g id="number" example="1">%1$s</xliff:g></string>
+
+    <!-- Accessibility description to move item to the hotseat. -->
+    <string name="move_to_hotseat_position">Déplacer vers la position des favoris <xliff:g id="number" example="1">%1$s</xliff:g></string>
+
+    <!-- Accessibility confirmation for item move. -->
+    <string name="item_moved">Article déplacé</string>
+
+    <!-- Accessibility description to move item into an existing folder. -->
+    <string name="add_to_folder">Ajouter au dossier : <xliff:g id="name" example="Games">%1$s</xliff:g></string>
+
+    <!-- Accessibility description to move item into an existing folder containing an app. -->
+    <string name="add_to_folder_with_app">Ajouter au dossier avec <xliff:g id="name" example="Messenger">%1$s</xliff:g></string>
+
+    <!-- Accessibility confirmation for item added to folder. -->
+    <string name="added_to_folder">Élément ajouté au dossier</string>
+
+    <!-- Accessibility description to create folder with another item. -->
+    <string name="create_folder_with">Créer un dossier avec : <xliff:g id="name" example="Game">%1$s</xliff:g></string>
+
+    <!-- Accessibility confirmation for folder created. -->
+    <string name="folder_created">Dossier créé</string>
+
+    <!-- Accessibility action to move an item from folder to workspace. [CHAR_LIMIT=30] -->
+    <string name="action_move_to_workspace">Passer à l\'écran d\'accueil</string>
+
+    <!-- Accessibility action to resize a widget. [CHAR_LIMIT=30] -->
+    <string name="action_resize">Redimensionner</string>
+
+    <!-- Accessibility action to increase width of a widget. [CHAR_LIMIT=30] -->
+    <string name="action_increase_width">Augmenter la largeur</string>
+
+    <!-- Accessibility action to increase height of a widget. [CHAR_LIMIT=30] -->
+    <string name="action_increase_height">Augmenter la hauteur</string>
+
+    <!-- Accessibility action to decrease width of a widget. [CHAR_LIMIT=30] -->
+    <string name="action_decrease_width">Réduire la largeur</string>
+
+    <!-- Accessibility action to decrease height of a widget. [CHAR_LIMIT=30] -->
+    <string name="action_decrease_height">Diminuer la hauteur</string>
+
+    <!-- Accessibility confirmation for widget resize. -->
+    <string name="widget_resized">Widget redimensionné à la largeur <xliff:g id="number" example="2">%1$s</xliff:g> hauteur <xliff:g id="number" example="1">%2$s</xliff:g></string>
+
+    <!-- Accessibility action to show quick actions menu for an icon. [CHAR_LIMIT=30] -->
+    <string name="action_deep_shortcut">Raccourcis</string>
+    <!-- Accessibility description when the context menu of a launcher icon that has notifications as well as shortcuts (providing quick access to app\'s actions). The "shortcuts" translation should be consistent with the one for action_deep_shortcut. [CHAR_LIMIT=50] -->
+    <string name="shortcuts_menu_with_notifications_description">Raccourcis et notifications</string>
+
+    <!-- Accessibility action to dismiss a notification in the shortcuts menu for an icon. [CHAR_LIMIT=30] -->
+    <string name="action_dismiss_notification">Rejeter</string>
+
+    <!-- Content description for arrow tip close button. [CHAR LIMIT=NONE] -->
+    <string name="accessibility_close">Fermer</string>
+
+    <!-- Accessibility confirmation for notification being dismissed. -->
+    <string name="notification_dismissed">Notification rejetée</string>
+
+    <!-- Label of tab to indicate personal apps -->
+    <string name="all_apps_personal_tab">Personnel</string>
+
+    <!-- Label of tab to indicate work apps -->
+    <string name="all_apps_work_tab">Travail</string>
+
+    <!-- This string is in the work profile tab when a user has All Apps open on their phone. This is a label for a toggle to turn the work profile on and off. "Work profile" means a separate profile on a user\'s phone that\'s specifically for their work apps and managed by their company. "Work" is used as an adjective.-->
+    <string name="work_profile_toggle_label">Profil de travail</string>
+    <!--- User onboarding title for work profile apps -->
+    <string name="work_profile_edu_work_apps">Les applications professionnelles sont des badges et sont visibles par votre administrateur informatique</string>
+    <!-- Action label to finish work profile edu-->
+    <string name="work_profile_edu_accept">J\'ai compris</string>
+
+    <!--- heading shown when user opens work apps tab while work apps are paused -->
+    <string name="work_apps_paused_title">Les applications professionnelles sont en pause</string>
+    <!--- body shown when user opens work apps tab while work apps are paused -->
+    <string name="work_apps_paused_body">Vos applications professionnelles ne peuvent pas vous envoyer de notifications, utiliser votre batterie ou accéder à votre position</string>
+    <!-- content description for paused work apps list -->
+    <string name="work_apps_paused_content_description">Les applications professionnelles sont désactivées. Vos applications professionnelles ne peuvent pas vous envoyer de notifications, utiliser votre batterie ou accéder à votre position</string>
+    <!-- string shown in educational banner about work profile -->
+    <string name="work_apps_paused_edu_banner">Les applications professionnelles sont badgées et visibles par votre administrateur informatique</string>
+    <!-- button string shown to dismiss work tab education -->
+    <string name="work_apps_paused_edu_accept">J\'ai compris</string>
+
+    <!-- button string shown pause work profile -->
+    <string name="work_apps_pause_btn_text">Désactiver les applications professionnelles</string>
+    <!-- button string shown enable work profile -->
+    <string name="work_apps_enable_btn_text">Activer les applications professionnelles</string>
+
+    <!-- A hint shown in launcher settings develop options filter box -->
+    <string name="developer_options_filter_hint">Filtre</string>
+
+    <!-- Failed action error message: e.g. Failed: Pause -->
+    <string name="remote_action_failed">Manqué : <xliff:g id="what" example="Pause">%1$s</xliff:g></string>
 </resources>
