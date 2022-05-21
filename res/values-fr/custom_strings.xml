@@ -30,7 +30,7 @@
 
     <!-- Suggestions -->
     <string name="suggestion_pref_screen_title">Suggestions</string>
-    <string name="suggestion_pref_screen_desc">Afficher des suggestions dans le tiroir &amp; l\'écran d'accueil</string>
+    <string name="suggestion_pref_screen_desc">Afficher des suggestions dans le tiroir &amp; l\'écran d\'accueil</string>
 
      <!-- DT2S -->
     <string name="pref_sleep_gesture_title">Appuyez deux fois pour mettre en veille</string>
